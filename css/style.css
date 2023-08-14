@@ -16,7 +16,7 @@
     }
 .container{
       width: 100%; /* Por padrão, ocupa 100% da largura */
-      max-width: 90%; /* Define a largura máxima como 90% */
+      max-width: 50%; /* Define a largura máxima como 90% */
       margin: 0 auto; /* Centraliza o elemento na tela */
        overflow-y: scroll;
        height: 90vh;
