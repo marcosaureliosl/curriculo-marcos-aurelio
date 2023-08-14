@@ -215,6 +215,24 @@
     transform: scale(1.5);
     color: #000;
     }
+    .hr_10 {
+      border-top: medium dashed #069;
+      border-bottom: medium dashed #069;
+      height: 3px;
+      overflow: visible;
+      padding: 0;
+      text-align: center;
+  }
+  
+  .hr_10::after {
+      content: 'Portfólio';
+      display: inline;
+      position: relative;
+      top: -0.7em;
+      font-size: 1.4em;
+      padding: 0 0.3em;
+      background-color: #fff;
+  }
     @media screen and (max-width: 768px) {
       .container {
         max-width: 90%; /* Mantém a largura máxima de 90% */
