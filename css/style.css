@@ -40,7 +40,7 @@
 	text-align: center;
   }
 .hr_dados1::after {
-	content: "MARCOS AURELIO DA SILVA lIMA";
+	content: "MARCOS AURELIO DA SILVA LIMA";
 	display: inline-block;
 	position: relative;
 	top: -0.7em;
@@ -215,7 +215,7 @@
     transform: scale(1.5);
     color: #000;
     }
-    
+
     .hr_10 {
       border-top: medium dashed #069;
       border-bottom: medium dashed #069;
