@@ -21,6 +21,7 @@
        overflow-y: scroll;
        height: 90vh;
        padding: 15px 2%;
+       background-color: #f7f3f3;
        box-shadow: 0 0 5px #069;
    }
 .container::-webkit-scrollbar{
