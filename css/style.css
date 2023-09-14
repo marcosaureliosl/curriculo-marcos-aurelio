@@ -21,7 +21,7 @@
        overflow-y: scroll;
        height: 90vh;
        padding: 15px 2%;
-       background-color: #f4ecec;
+       background-color: #63636339;
        box-shadow: 0 0 5px #069;
    }
 .container::-webkit-scrollbar{
@@ -234,6 +234,26 @@
       font-size: 1.4em;
       padding: 0 0.3em;
       background-color: #fff;
+  }
+  .hr_11{
+    border-top: medium dashed #069;
+    border-bottom: medium dashed #069;
+    height: 3px;
+    overflow: visible;
+    padding: 0;
+    text-align: center;
+     }
+  .hr_11::after{
+     content: 'FreeLancer';
+     display: inline;
+     position: relative;
+     top: -0.7em;
+     font-size: 1.4em;
+     padding: 0 0.3em;
+     background-color: #fff;
+    }
+  h3, h5, a{
+    color:rgba(3, 72, 106, 0.958) ;
   }
     @media screen and (max-width: 768px) {
       .container {
